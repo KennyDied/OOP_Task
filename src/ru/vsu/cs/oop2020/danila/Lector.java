@@ -5,11 +5,11 @@ import java.util.Set;
 public class Lector {
     private String name;
     private String surname;
-    private Set<TaughtSubject> ListOfTaughtSubjects;
+    private Set<Pair> listOfPairs;
 
-    public Lector(String name, String surname, Set<TaughtSubject> listOfTaughtSubjects) {
+    public Lector(String name, String surname, Set<Pair> listOfPairs) {
         this.name = name;
         this.surname = surname;
-        this.ListOfTaughtSubjects = listOfTaughtSubjects;
+        this.listOfPairs = listOfPairs;
     }
 }

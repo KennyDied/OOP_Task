@@ -2,14 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1b2e97c-c80c-483a-b34b-d242f348579a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/vsu/cs/oop2020/danila/Group.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/vsu/cs/oop2020/danila/Lector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/vsu/cs/oop2020/danila/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/vsu/cs/oop2020/danila/TaughtSubject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/vsu/cs/oop2020/danila/Day.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/vsu/cs/oop2020/danila/PairTime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/vsu/cs/oop2020/danila/Schedule.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/vsu/cs/oop2020/danila/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/vsu/cs/oop2020/danila/Lector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/vsu/cs/oop2020/danila/Lector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/vsu/cs/oop2020/danila/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/vsu/cs/oop2020/danila/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/vsu/cs/oop2020/danila/TaughtSubject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/vsu/cs/oop2020/danila/Pair.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -37,11 +36,11 @@
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="ru.vsu.cs.oop2020.danila" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Данила\Desktop\OOP_Task\src" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="ru.vsu.cs.oop2020.danila" />
     </key>
   </component>
   <component name="RunDashboard">
