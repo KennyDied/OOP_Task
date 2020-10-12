@@ -1,16 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="c1b2e97c-c80c-483a-b34b-d242f348579a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ru/vsu/cs/oop2020/danila/Day.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/vsu/cs/oop2020/danila/PairTime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/vsu/cs/oop2020/danila/Schedule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/vsu/cs/oop2020/danila/obj/Group.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/vsu/cs/oop2020/danila/obj/Lector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/vsu/cs/oop2020/danila/obj/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/vsu/cs/oop2020/danila/Lector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/vsu/cs/oop2020/danila/Lector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/vsu/cs/oop2020/danila/Day.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/vsu/cs/oop2020/danila/Day.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/vsu/cs/oop2020/danila/Group.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/vsu/cs/oop2020/danila/Lector.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ru/vsu/cs/oop2020/danila/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/vsu/cs/oop2020/danila/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/vsu/cs/oop2020/danila/TaughtSubject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/vsu/cs/oop2020/danila/Pair.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/vsu/cs/oop2020/danila/Pair.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/vsu/cs/oop2020/danila/Pair.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/vsu/cs/oop2020/danila/Schedule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/vsu/cs/oop2020/danila/Schedule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/vsu/cs/oop2020/danila/Student.java" beforeDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,7 +49,13 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1hiuhuqUQSdTLQaR0xD64iFLfSQ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -36,24 +63,12 @@
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Данила\Desktop\OOP_Task\src" />
-    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="ru.vsu.cs.oop2020.danila" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Данила\Desktop\OOP_Task\src" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
@@ -90,12 +105,57 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="399" y="61" key="#com.intellij.ide.util.MemberChooser" timestamp="1602516664490">
+      <screen x="0" y="0" width="1187" height="720" />
+    </state>
+    <state x="399" y="61" key="#com.intellij.ide.util.MemberChooser/0.0.1187.720@0.0.1187.720" timestamp="1602516664490" />
+    <state x="377" y="255" width="432" height="216" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1602449828579">
+      <screen x="0" y="0" width="1187" height="720" />
+    </state>
+    <state x="377" y="255" width="432" height="216" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1187.720@0.0.1187.720" timestamp="1602449828579" />
+    <state width="1129" height="167" key="GridCell.Tab.0.bottom" timestamp="1602517411012">
+      <screen x="0" y="0" width="1187" height="720" />
+    </state>
+    <state width="1129" height="167" key="GridCell.Tab.0.bottom/0.0.1187.720@0.0.1187.720" timestamp="1602517411012" />
+    <state width="1129" height="167" key="GridCell.Tab.0.center" timestamp="1602517411012">
+      <screen x="0" y="0" width="1187" height="720" />
+    </state>
+    <state width="1129" height="167" key="GridCell.Tab.0.center/0.0.1187.720@0.0.1187.720" timestamp="1602517411012" />
+    <state width="1129" height="167" key="GridCell.Tab.0.left" timestamp="1602517411012">
+      <screen x="0" y="0" width="1187" height="720" />
+    </state>
+    <state width="1129" height="167" key="GridCell.Tab.0.left/0.0.1187.720@0.0.1187.720" timestamp="1602517411012" />
+    <state width="1129" height="167" key="GridCell.Tab.0.right" timestamp="1602517411012">
+      <screen x="0" y="0" width="1187" height="720" />
+    </state>
+    <state width="1129" height="167" key="GridCell.Tab.0.right/0.0.1187.720@0.0.1187.720" timestamp="1602517411012" />
+    <state width="1129" height="217" key="GridCell.Tab.1.bottom" timestamp="1602500455863">
+      <screen x="0" y="0" width="1187" height="720" />
+    </state>
+    <state width="1129" height="217" key="GridCell.Tab.1.bottom/0.0.1187.720@0.0.1187.720" timestamp="1602500455863" />
+    <state width="1129" height="217" key="GridCell.Tab.1.center" timestamp="1602500455863">
+      <screen x="0" y="0" width="1187" height="720" />
+    </state>
+    <state width="1129" height="217" key="GridCell.Tab.1.center/0.0.1187.720@0.0.1187.720" timestamp="1602500455863" />
+    <state width="1129" height="217" key="GridCell.Tab.1.left" timestamp="1602500455863">
+      <screen x="0" y="0" width="1187" height="720" />
+    </state>
+    <state width="1129" height="217" key="GridCell.Tab.1.left/0.0.1187.720@0.0.1187.720" timestamp="1602500455863" />
+    <state width="1129" height="217" key="GridCell.Tab.1.right" timestamp="1602500455863">
+      <screen x="0" y="0" width="1187" height="720" />
+    </state>
+    <state width="1129" height="217" key="GridCell.Tab.1.right/0.0.1187.720@0.0.1187.720" timestamp="1602500455863" />
+    <state x="256" y="41" width="672" height="678" key="search.everywhere.popup" timestamp="1602436136006">
+      <screen x="0" y="0" width="1187" height="720" />
+    </state>
+    <state x="256" y="41" width="672" height="678" key="search.everywhere.popup/0.0.1187.720@0.0.1187.720" timestamp="1602436136006" />
   </component>
 </project>
