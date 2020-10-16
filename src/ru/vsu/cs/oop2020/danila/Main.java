@@ -1,57 +1,51 @@
 package ru.vsu.cs.oop2020.danila;
 
-import ru.vsu.cs.oop2020.danila.obj.Discipline;
-import ru.vsu.cs.oop2020.danila.obj.Group;
-import ru.vsu.cs.oop2020.danila.obj.Lector;
-import ru.vsu.cs.oop2020.danila.obj.Student;
+import ru.vsu.cs.oop2020.danila.utils.Schedule;
+import ru.vsu.cs.oop2020.danila.utils.ScheduleService;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Set;
+import java.util.Scanner;
 
 public class Main {
-
     public static void main(String[] args) {
-        Generator gnr = new Generator();
-        System.out.println("Create students and group...");
+        Scanner in = new Scanner(System.in);
+        Schedule scd = new Schedule();
+        scd.createSchedule();
+        ScheduleService scheduleService = new ScheduleService(scd);
 
-        ArrayList<Group> gr = new ArrayList<>();
-        for (int i = 0; i < 4; i++) {
-            ArrayList<Student> students = new ArrayList<>();
-            for (int j = 0; j < 20; j++) {
-                students.add(new Student(gnr.createName(), i*20 + j));
+        while(true) {
+            System.out.println("");
+            System.out.println("Что вывести:  ");
+            System.out.println("1) Все расписание.");
+            System.out.println("2) Расписание для группы.");
+            System.out.println("3) Расписание в определенный день для группы.");
+            System.out.println("4) Пара для группы по номеру.");
+            System.out.print(">> ");
+            int n = in.nextInt();
+
+            if (n == 1) {
+                scheduleService.printAll();
             }
-            gr.add(new Group(students));
-        }
-
-
-        System.out.println("Create subjects...");
-        ArrayList<Discipline> subjects = new ArrayList<>();
-        subjects.add(new Discipline("ТФКП"));
-        subjects.add(new Discipline("Дифференциальные уравнения"));
-        subjects.add(new Discipline("Дискретная математика"));
-        subjects.add(new Discipline("Управление данными"));
-        subjects.add(new Discipline("ООП"));
-        subjects.add(new Discipline("Психология"));
-
-        System.out.println("Create lecturers...");
-        ArrayList<Lector> lecturers = new ArrayList<>();
-        for (int i = 0; i < 6; i++) {
-            lecturers.add(new Lector(gnr.createName()));
-            for (int j = 0; j < 2; j++) {
-                lecturers.get(i).addDiscipline(subjects.get(Math.abs(5 * j - i)));
+            if (n == 2) {
+                System.out.print("Введите группу (1-4): ");
+                int group = in.nextInt();
+                scheduleService.printScheduleForGroup(group);
             }
-            //lecturers.get(i).printAllDiscipline();
+            if (n == 3) {
+                System.out.print("Введите группу (1-4): ");
+                int group = in.nextInt();
+                System.out.print("Введите день недели (1-6): ");
+                int day = in.nextInt();
+                scheduleService.printDayForGroup(group, day);
+            }
+            if (n == 4) {
+                System.out.print("Введите группу (1-4): ");
+                int group = in.nextInt();
+                System.out.print("Введите день недели (1-6): ");
+                int day = in.nextInt();
+                System.out.print("Введите номер пары (1-5): ");
+                int hour = in.nextInt();
+                scheduleService.printScheduleForGroupByHour(group, day, hour);
+            }
         }
-
-        System.out.println("Create schedule...");
-
-        Day[][] monday = new Day[5][4];
-        monday[0][gr.get(0).getIdOfGroup()] = new Pair(subjects.get(0), lecturers.get(0), gr.get(0));
-        monday.addPair(new Pair(subjects.get(1), lecturers.get(1), gr.get(1)));
-        monday.printPairs();
-
-
     }
 }
