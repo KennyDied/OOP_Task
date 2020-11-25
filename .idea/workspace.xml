@@ -1,64 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BranchesTreeState">
-    <expand>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </expand>
-    <select />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1b2e97c-c80c-483a-b34b-d242f348579a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="428f0894-a194-4704-97e4-a06c968e1755" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Enum" />
-        <option value="Class" />
-      </list>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
     </option>
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="ProjectId" id="1hiuhuqUQSdTLQaR0xD64iFLfSQ" />
-  <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showLibraryContents" value="true" />
-  </component>
+  <component name="ProjectId" id="1kkCyVvaW2jwqL0PDgL25UkImmR" />
   <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="ru.vsu.cs.oop2020.danila" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Данила\Desktop\OOP_Task\src" />
+      <recent name="C:\Users\Данила\IdeaProjects\schedule_oop_maven\src\main\java" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -74,118 +37,35 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="ru.vsu.cs.oop2020.danila.Main" />
-      <module name="OOPTask8" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
+    <configuration name="Main" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="schedule_oop_maven" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.Main" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="c1b2e97c-c80c-483a-b34b-d242f348579a" name="Default Changelist" comment="" />
-      <created>1600506356332</created>
+      <changelist id="428f0894-a194-4704-97e4-a06c968e1755" name="Default Changelist" comment="" />
+      <created>1606235456477</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1600506356332</updated>
+      <updated>1606235456477</updated>
     </task>
     <servers />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="2506" y="198" key="#Inspections" timestamp="1602777208753">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="2506" y="198" key="#Inspections/0.0.1187.720/1920.0.1920.1040@1920.0.1920.1040" timestamp="1602777208753" />
-    <state x="2565" y="88" key="#com.intellij.ide.util.MemberChooser" timestamp="1602868109217">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="2565" y="88" key="#com.intellij.ide.util.MemberChooser/0.0.1187.720/1920.0.1920.1040@1920.0.1920.1040" timestamp="1602868109217" />
-    <state x="399" y="61" key="#com.intellij.ide.util.MemberChooser/0.0.1187.720@0.0.1187.720" timestamp="1602703875329" />
-    <state x="377" y="255" width="432" height="216" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1602449828579">
-      <screen x="0" y="0" width="1187" height="720" />
-    </state>
-    <state x="377" y="255" width="432" height="216" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1187.720@0.0.1187.720" timestamp="1602449828579" />
-    <state x="2610" y="267" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1602777217809">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="2610" y="267" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1187.720/1920.0.1920.1040@1920.0.1920.1040" timestamp="1602777217809" />
-    <state width="1877" height="179" key="GridCell.Tab.0.bottom" timestamp="1602876928700">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1143" height="563" key="GridCell.Tab.0.bottom/0.0.1187.720/1920.0.1920.1040@0.0.1187.720" timestamp="1602764238697" />
-    <state width="1877" height="179" key="GridCell.Tab.0.bottom/0.0.1187.720/1920.0.1920.1040@1920.0.1920.1040" timestamp="1602876928700" />
-    <state width="1143" height="563" key="GridCell.Tab.0.bottom/0.0.1187.720@0.0.1187.720" timestamp="1602705991731" />
-    <state width="1877" height="179" key="GridCell.Tab.0.center" timestamp="1602876928699">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1143" height="563" key="GridCell.Tab.0.center/0.0.1187.720/1920.0.1920.1040@0.0.1187.720" timestamp="1602764238696" />
-    <state width="1877" height="179" key="GridCell.Tab.0.center/0.0.1187.720/1920.0.1920.1040@1920.0.1920.1040" timestamp="1602876928699" />
-    <state width="1143" height="563" key="GridCell.Tab.0.center/0.0.1187.720@0.0.1187.720" timestamp="1602705991731" />
-    <state width="1877" height="179" key="GridCell.Tab.0.left" timestamp="1602876928699">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1143" height="563" key="GridCell.Tab.0.left/0.0.1187.720/1920.0.1920.1040@0.0.1187.720" timestamp="1602764238696" />
-    <state width="1877" height="179" key="GridCell.Tab.0.left/0.0.1187.720/1920.0.1920.1040@1920.0.1920.1040" timestamp="1602876928699" />
-    <state width="1143" height="563" key="GridCell.Tab.0.left/0.0.1187.720@0.0.1187.720" timestamp="1602705991731" />
-    <state width="1877" height="179" key="GridCell.Tab.0.right" timestamp="1602876928699">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1143" height="563" key="GridCell.Tab.0.right/0.0.1187.720/1920.0.1920.1040@0.0.1187.720" timestamp="1602764238696" />
-    <state width="1877" height="179" key="GridCell.Tab.0.right/0.0.1187.720/1920.0.1920.1040@1920.0.1920.1040" timestamp="1602876928699" />
-    <state width="1143" height="563" key="GridCell.Tab.0.right/0.0.1187.720@0.0.1187.720" timestamp="1602705991731" />
-    <state width="1877" height="285" key="GridCell.Tab.1.bottom" timestamp="1602875389625">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="285" key="GridCell.Tab.1.bottom/0.0.1187.720/1920.0.1920.1040@1920.0.1920.1040" timestamp="1602875389625" />
-    <state width="1129" height="217" key="GridCell.Tab.1.bottom/0.0.1187.720@0.0.1187.720" timestamp="1602500455863" />
-    <state width="1877" height="285" key="GridCell.Tab.1.center" timestamp="1602875389625">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="285" key="GridCell.Tab.1.center/0.0.1187.720/1920.0.1920.1040@1920.0.1920.1040" timestamp="1602875389625" />
-    <state width="1129" height="217" key="GridCell.Tab.1.center/0.0.1187.720@0.0.1187.720" timestamp="1602500455863" />
-    <state width="1877" height="285" key="GridCell.Tab.1.left" timestamp="1602875389625">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="285" key="GridCell.Tab.1.left/0.0.1187.720/1920.0.1920.1040@1920.0.1920.1040" timestamp="1602875389625" />
-    <state width="1129" height="217" key="GridCell.Tab.1.left/0.0.1187.720@0.0.1187.720" timestamp="1602500455863" />
-    <state width="1877" height="285" key="GridCell.Tab.1.right" timestamp="1602875389625">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="285" key="GridCell.Tab.1.right/0.0.1187.720/1920.0.1920.1040@1920.0.1920.1040" timestamp="1602875389625" />
-    <state width="1129" height="217" key="GridCell.Tab.1.right/0.0.1187.720@0.0.1187.720" timestamp="1602500455863" />
-    <state x="2536" y="240" key="run.anything.popup" timestamp="1602876810110">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="2536" y="240" key="run.anything.popup/0.0.1187.720/1920.0.1920.1040@1920.0.1920.1040" timestamp="1602876810110" />
-    <state x="2334" y="59" width="1087" height="980" key="search.everywhere.popup" timestamp="1602871834499">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="2334" y="59" width="1087" height="980" key="search.everywhere.popup/0.0.1187.720/1920.0.1920.1040@1920.0.1920.1040" timestamp="1602871834499" />
-    <state x="256" y="41" width="672" height="678" key="search.everywhere.popup/0.0.1187.720@0.0.1187.720" timestamp="1602436136006" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/target/classes/enums/Days.class</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
