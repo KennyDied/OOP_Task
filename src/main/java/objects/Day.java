@@ -20,15 +20,6 @@ public class Day {
         this.pairMap = pairMap;
     }
 
-    public void addPair(Pair pair){
-        for (Hour h: Hour.values()) {
-            if (!pairMap.containsKey(h)){
-                pairMap.put(h, pair);
-                return;
-            }
-        }
-    }
-
     @Override
     public String toString() {                      //весь день
         StringBuilder str = new StringBuilder();
@@ -39,7 +30,7 @@ public class Day {
                 if (p == null){
                     str.append("окно\n");
                 } else {
-                    str.append(p.toString());
+                    str.append(p.toString() + " \n");
                 }
             }
         }

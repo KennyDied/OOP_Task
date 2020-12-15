@@ -6,6 +6,15 @@ import objects.Lector;
 import objects.Pair;
 
 public class DayService {
+    public void addPair(Pair pair, Day day){
+        for (Hour h: Hour.values()) {
+
+            if (!day.getPairMap().containsKey(h)){
+                day.getPairMap().put(h, pair);
+                return;
+            }
+        }
+    }
 
     public Pair getPairByHour(Day day, int h){
 
@@ -13,7 +22,6 @@ public class DayService {
             if (h == hour.getH()) {
                 return day.getPairMap().get(h);
             }
-
         }
         return null;
     }

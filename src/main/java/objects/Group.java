@@ -35,9 +35,7 @@ public class Group {
         return disciplinesInGroup;
     }
 
-    public void setDisciplinesInGroup(List<Discipline> disciplinesInGroup) {
-        this.disciplinesInGroup = disciplinesInGroup;
-    }
+    public void setDisciplinesInGroup(List<Discipline> disciplinesInGroup) { this.disciplinesInGroup = disciplinesInGroup; }
 
     public void removeDiscipline(Discipline d){
         disciplinesInGroup.remove(d);

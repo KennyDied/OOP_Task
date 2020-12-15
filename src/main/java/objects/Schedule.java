@@ -8,6 +8,15 @@ public class Schedule {
     private List<Discipline> disciplines;
     private List<Lector> lecturers;
     private List<Day[]> days;
+    private String name;
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
 
     public Schedule(List<Group> groups, List<Discipline> disciplines, List<Lector> lecturers) {
         this.groups = groups;

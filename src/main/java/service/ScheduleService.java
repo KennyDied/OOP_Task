@@ -41,10 +41,10 @@ public class ScheduleService {
                 } while (dSvc.ifLectorHasPair(l, dayForGroup, i, j)&& gSvc.containsDiscipline(groups.get(i), d));  //у лектора в этот день нет пары и у группы не было этого предмета
 
                 if (dSvc.ifLectorHasPair(l, dayForGroup, i, j)){  //окно
-                    day.addPair(null);
+                    dSvc.addPair(null, day);
                 } else {
                     groups.get(i).removeDiscipline(d);
-                    day.addPair(new Pair(d, l, groups.get(i)));
+                    dSvc.addPair(new Pair(d, l, groups.get(i)), day);
                 }
             }
             dayForGroup[i] = day;   //массив из дней для каждой группы в определенный день недели

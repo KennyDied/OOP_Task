@@ -37,6 +37,6 @@ public class Pair {
 
     @Override
     public String toString() {
-        return discipline.getNameOfDiscipline() + " - Преподаватель: " + lector.getName() + "  \n";
+        return discipline.getNameOfDiscipline() + " - Преподаватель: " + lector.getName() + " ";
     }
 }

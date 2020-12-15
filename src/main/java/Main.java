@@ -1,20 +1,27 @@
+import json.JSonService;
 import objects.Schedule;
 import service.PrintService;
 import service.ScheduleService;
 
-import java.io.File;
-import java.util.Scanner;
-
 public class Main {
     public static void main(String[] args) {
+        JSonService jSonService = new JSonService();
+        PrintService ps = new PrintService(jSonService);
 
-        Scanner in = new Scanner(System.in);
+        int n = ps.chooseInterface();
 
-        ScheduleService scheduleService = new ScheduleService();
-        Schedule scd = scheduleService.initializeSchedule();
-        PrintService printService = new PrintService(scd);
-        while(true) {
-            printService.textInterface(in);
+        if (n == 1) {
+            ScheduleService scheduleService = new ScheduleService();
+            Schedule scd = scheduleService.initializeSchedule();
+
+            ps.setSchedule(scd);
+
+            ps.setNameOfSchedule();
+        } else {
+            ps.setSchedule(jSonService.toSchedule(ps.setPath()));
+        }
+        while (true) {
+            ps.textInterface();
         }
     }
 }
